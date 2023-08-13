@@ -14,3 +14,6 @@
 ## Dummy Search Data (Doctor Dashboard)
 - **"patientId":** "F34P8X9"
 - **"patientId":** "PT5678X"
+
+## Development Branch 
+#### Development branch will be used to test non-production code before merging into the main (production) branch
