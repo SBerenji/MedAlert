@@ -10,3 +10,7 @@
 ### Patient
 - **User Id:** patient
 - **Password:** password
+
+## Dummy Search Data (Doctor Dashboard)
+- **"patientId":** "F34P8X9"
+- **"patientId":** "PT5678X"
