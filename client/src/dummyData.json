@@ -1,0 +1,13 @@
+[
+    {
+      "type": "patient",
+      "image": "../src/assets/patient.png",
+      "description": "I am a patient...Please save me :)"
+    },
+    {
+      "type": "doctor",
+      "image": "../src/assets/doctor.png",
+      "description": "I am a licensed medical practitioner"
+    }
+  ]
+  

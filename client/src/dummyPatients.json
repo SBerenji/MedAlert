@@ -1,0 +1,47 @@
+[
+    {
+      "userId": "patient",
+      "email": "sudhan@troll.com",
+      "patientId": "F34P8X9",
+      "dateOfBirth": "2003-06-25",
+      "age": "20",
+      "accountCreationDate": "2023-06-20",
+      "medications": [
+          {
+              "name": "ibuprofen",
+              "dosage": "10mg",
+              "refill": "Monthly",
+              "timeToTake": "Morning"
+          },
+          {
+              "name": "aspirin",
+              "dosage": "5mg",
+              "refill": "Weekly",
+              "timeToTake": "Evening"
+          }
+      ]   
+    },
+    {
+        "userId": "patient",
+        "email": "kira@troll.com",
+        "patientId": "PT5678X",
+        "dateOfBirth": "2003-05-09",
+        "age": "21",
+        "accountCreationDate": "2023-06-22",
+        "medications": [
+            {
+                "name": "Tylenol",
+                "dosage": "15mg",
+                "refill": "Bi-weekly",
+                "timeToTake": "Morning"
+            },
+            {
+                "name": "Paracetamol",
+                "dosage": "7.5mg",
+                "refill": "Monthly",
+                "timeToTake": "Night"
+            }
+        ]
+    }
+  ]
+  

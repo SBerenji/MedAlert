@@ -1,0 +1,22 @@
+[
+    {
+        "medicineName": "Vitamin D",
+        "frequency": "Once a day",
+        "doctor": "Emily Anderson",
+        "usage" : {
+            "start": "May, 05, 2023",
+            "end": "June 02, 2023" 
+        }, 
+        "time": "9 AM"
+    },
+    {
+        "medicineName": "Amoxicillin-Clavulanate",
+        "frequency": "Every 12 hours",
+        "doctor": "Olivia Williams",
+        "usage" : {
+            "start": "May, 05, 2023",
+            "end": "June 02, 2023" 
+        }, 
+        "time": "9 AM"
+    }
+]
