@@ -2,7 +2,7 @@
 import React from 'react'
 import { Button, Typography } from '@material-tailwind/react'
 import { Link } from 'react-router-dom'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 const PatientDashboard = () => {
   
@@ -22,11 +22,11 @@ const PatientDashboard = () => {
             <Link to='/dashboard/my-doctors'>
                 <Button variant='outlined' className=' border-emerald text-black normal-case text-xl font-normal p-10'>My Doctors</Button>
             </Link>
-            <Link>
+            <Link to='/dashboard/med-tracker'>
                 <Button variant='outlined' className=' border-emerald text-black normal-case text-xl font-normal p-10'>Med Tracker</Button>
             </Link>
             <Link to='/dashboard/schedule'>
-            <Button variant='outlined' className=' border-emerald text-black normal-case text-xl font-normal p-8'>Med Scheduled</Button>
+                <Button variant='outlined' className=' border-emerald text-black normal-case text-xl font-normal p-8'>Med Scheduled</Button>
             </Link>
             
             

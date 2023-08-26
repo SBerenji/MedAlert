@@ -7,7 +7,9 @@
             "start": "May, 05, 2023",
             "end": "June 02, 2023" 
         }, 
-        "time": "9 AM"
+        "time": {
+            "first": "9 AM"
+        }
     },
     {
         "medicineName": "Amoxicillin-Clavulanate",
@@ -17,6 +19,9 @@
             "start": "May, 05, 2023",
             "end": "June 02, 2023" 
         }, 
-        "time": "9 AM"
+        "time": {
+            "first": "9 AM",
+            "second": "9 PM"
+        }
     }
 ]

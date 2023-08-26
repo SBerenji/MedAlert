@@ -8,6 +8,8 @@ import Register from './pages/Register'
 import Footer from './components/Footer/Footer'
 import Dashboard from './pages/Dashboard'
 import Scheduler from './components/Dashboard/SubDashboard/Scheduler'
+import MyDoctor from './components/Dashboard/SubDashboard/MyDoctor'
+import MedTracker from './components/Dashboard/SubDashboard/MedTracker'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,8 +28,8 @@ function App() {
           <Route exact path="/" element={<Welcome/>}/>
           <Route exact path="/login" element={<Login/>}/>
           <Route exact path='/register' element={<Register/>}/>
-          {/* <Route path='/dashboard' element={<Dashboard/>}/>
-          <Route path='/dashboard/my-doctors' element={<Doctor/>}/> */}
+          <Route path='/dashboard/med-tracker' element={<MedTracker/>}/>
+          <Route path='/dashboard/my-doctors' element={<MyDoctor/>}/>
           <Route path='/dashboard/schedule' element={<Scheduler/>}/>
           <Route exact path='*' element={<Error/>}/>
         </Routes>
