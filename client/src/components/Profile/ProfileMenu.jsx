@@ -8,8 +8,18 @@ import {
   } from "@material-tailwind/react";
 
   import ProfilePhoto from '../../assets/patient.png'
+import { useNavigate } from "react-router-dom";
    
   export function ProfileMenu() {
+
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+      localStorage.removeItem("token");
+      // window.location.reload();
+      navigate('/login');
+    };
+
     return (
       <Menu>
         <MenuHandler>
@@ -118,7 +128,7 @@ import {
                 d="M5.636 5.636a9 9 0 1012.728 0M12 3v9"
               />
             </svg>
-            <Typography variant="small" className="font-normal">
+            <Typography variant="small" className="font-normal" onClick={handleLogout}>
               Sign Out
             </Typography>
           </MenuItem>

@@ -27,7 +27,7 @@ const MedTracker = () => {
             </Breadcrumbs>  
             <div className=' grid justify-start grid-cols-4'>
                 {dummyMedications.map((data, index) => (
-                    <>
+                    <div key={index}>
                         <div className=' col-span-1'>
                             <Typography variant='h4' className=' font-normal'>{data.medicineName}</Typography>
                             <Typography>Leave note for your doctor using the plus sign</Typography>
@@ -35,7 +35,7 @@ const MedTracker = () => {
                         <div className=' col-span-3'>
                             
                         </div>
-                    </>
+                    </div>
                 ))}
             </div>
         </div>

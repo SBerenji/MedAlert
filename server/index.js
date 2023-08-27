@@ -56,7 +56,10 @@ connection();
 
 // middlewares
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:5173', // Replace with your React app's URL
+  credentials: true, // Allow cookies and other credentials to be included
+}));
 
 // routes
 app.use("/api/users", userRoutes);

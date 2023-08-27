@@ -11,14 +11,15 @@ const Navbar = () => {
 
   // Check for authentication
 //   const { isAuthenticated } = useSelector(state => state.user);
+  const user = localStorage.getItem("token");
 
-// Fake Logged In Dashboard
-const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(!!user);
+
 
   // Logic for autheticated navbar
   const authLinks = (
     <>
-      <Link to="/">
+      <Link>
           <button className='rounded-lg border-2 border-b-4 border-r-4 border-black px-2 py-1 text-xl font-bold transition-all hover:-translate-y-[2px] md:block dark:border-white'>
             MedAlert
           </button>
@@ -37,11 +38,11 @@ const [isAuthenticated, setIsAuthenticated] = useState(true);
             MedAlert
           </button>
       </Link>
-      {/* <Link to={linkTo}>
-          <button className='px-2 py-1 text-xl text-white bg-black rounded-lg transition-all hover:-translate-y-[2px] md:block dark:border-white'>
-              {button.toUpperCase()}
-          </button>
-      </Link> */}
+      <button className='px-2 py-1 text-xl bg-emerald text-white rounded-lg transition-all hover:-translate-y-[2px] md:block dark:border-white'>
+          <Link to="/login">
+            Login
+          </Link>
+      </button>
     </>
   )
 

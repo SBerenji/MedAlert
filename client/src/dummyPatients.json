@@ -1,25 +1,25 @@
 [
     {
-      "userId": "patient",
-      "email": "sudhan@troll.com",
-      "patientId": "F34P8X9",
-      "dateOfBirth": "2003-06-25",
-      "age": "20",
-      "accountCreationDate": "2023-06-20",
-      "medications": [
-          {
-              "name": "ibuprofen",
-              "dosage": "10mg",
-              "refill": "Monthly",
-              "timeToTake": "Morning"
-          },
-          {
-              "name": "aspirin",
-              "dosage": "5mg",
-              "refill": "Weekly",
-              "timeToTake": "Evening"
-          }
-      ]   
+        "userId": "patient",
+        "email": "sudhan@troll.com",
+        "patientId": "F34P8X9",
+        "dateOfBirth": "2003-06-25",
+        "age": "20",
+        "accountCreationDate": "2023-06-20",
+        "medications": [
+            {
+                "name": "ibuprofen",
+                "dosage": "10mg",
+                "refill": "Monthly",
+                "timeToTake": "Morning"
+            },
+            {
+                "name": "aspirin",
+                "dosage": "5mg",
+                "refill": "Weekly",
+                "timeToTake": "Evening"
+            }
+        ]
     },
     {
         "userId": "patient",
@@ -43,5 +43,4 @@
             }
         ]
     }
-  ]
-  
+]

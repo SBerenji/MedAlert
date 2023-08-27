@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../components/navbar/Navbar';
 import Header from '../components/Header/Header';
 import Account from '../components/Account/Account';
 import dummyData from '../dummyData.json';
@@ -7,6 +6,7 @@ import dummyData from '../dummyData.json';
 // import { useDispatch, useSelector } from 'react-redux';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { Input, alert } from '@material-tailwind/react';
+import Navbar from '../components/Navbar/Navbar'
 import axios from 'axios';
 
 const Register = () => {

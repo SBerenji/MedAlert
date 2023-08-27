@@ -19,7 +19,7 @@ const Scheduler = () => {
         </div>
         <div>
             {dummyMedications.map((info, index) => (
-                <ScheduleCard data={info}/>
+                <ScheduleCard data={info} key={index} />
 
             ))}
         </div>

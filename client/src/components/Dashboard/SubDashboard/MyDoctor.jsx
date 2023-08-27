@@ -29,8 +29,8 @@ const MyDoctor = () => {
           <div className='flex flex-col items-center pt-4'>
             <Card className=' h-96 md:w-3/4'>
               <List className=' overflow-auto'>
-                {dummyDoctors.map(doctor => (
-                  <ListItem key={doctor.id} ripple={false} className='justify-between border-blue-gray-300 border'>
+                {dummyDoctors.map((doctor, index) => (
+                  <ListItem key={index} ripple={false} className='justify-between border-blue-gray-300 border'>
                     <div>
                       <Typography variant="h6" >{doctor.profession}</Typography>
                       <Typography>Dr. {doctor.fullName}</Typography>
