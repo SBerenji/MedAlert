@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../navbar/Navbar';
 import { Avatar, Button, Card, IconButton, Input, List, ListItem, ListItemPrefix, Typography } from '@material-tailwind/react';
 import Patients from '../../dummyPatients.json';
 import PatientPhoto from '../../assets/patient.png'

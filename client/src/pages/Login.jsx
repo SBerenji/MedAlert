@@ -11,6 +11,7 @@ import {
   Button,
 } from '@material-tailwind/react';
 import axios from 'axios';
+import Navbar from '../components/Navbar/Navbar';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -51,19 +52,17 @@ const Login = () => {
   };
 
   return (
-    <div className='flex items-center justify-center h-screen'>
-      <Card className='w-96'>
-        <CardHeader
-          variant='gradient'
-          color='gray'
-          className='mb-4 grid h-28 place-items-center'
+    <div className='flex items-center justify-center max-h-screen'>
+      <Navbar/>
+      <Card className=' w-80'>
+        <div className='mb-4 grid place-items-center'
         >
-          <Typography variant='h3' color='white'>
+          <Typography variant='h3'>
             Log In
           </Typography>
-        </CardHeader>
-        <CardBody className='flex flex-col gap-4'>
-          <form className='mt-5' onSubmit={onSubmitForm}>
+        </div>
+        <CardBody>
+          <form className='flex flex-col gap-4 mt-5' onSubmit={onSubmitForm}>
             <Input
               className='form-control'
               type='email'
@@ -86,7 +85,7 @@ const Login = () => {
               <Checkbox label='Remember Me' />
             </div>
             <CardFooter className='pt-0'>
-              <Button variant='gradient' fullWidth type='submit'>
+              <Button variant='filled' type='submit' className=' bg-emerald'>
                 Log In
               </Button>
               <Typography variant='small' className='mt-6 flex justify-center'>
